@@ -1,0 +1,14 @@
+@setlocal
+@echo off
+:: Demo of building, and using, PBPlugin
+if plugin PBPlugin plugin /u PBPlugin
+:: pbc is an alias : "C:\Program Files\PureBasic\Compilers\pbcompiler.exe"
+if isalias pbc pbc /dll PBPlugin.pb /exe "PBPlugin.dll"
+plugin /l PBPlugin.dll
+plugin /i PBPlugin
+echo @Reverse: %@PBPlugin$Reverse[Today]
+echo @PlusOne: %@PlusOne[27]
+echo _hello  : %_hello
+echos Dummy   :` `
+Dummy Test
+endlocal

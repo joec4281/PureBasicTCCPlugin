@@ -42,7 +42,7 @@ ProcedureDLL.i GetPluginInfo()
   Static DLLdesc.s
   Static DLLfuns.s
   
-  DLLname = "PBPlugin"
+  DLLname = "PureBasicTCCPlugin"
   DLLauth = "Joe Caverly"
   DLLmail = "jlcaverlyca@yahoo.ca"
   DLLwww  = "https://github.com/joec4281/PureBasicTCCPlugin"
@@ -131,4 +131,4 @@ EndProcedure
 ; FirstLine = 36
 ; Folding = --
 ; EnableXP
-; Executable = PBPlugin.dll
+; Executable = PureBasicTCCPlugin.dll
